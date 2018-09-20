@@ -1,0 +1,22 @@
+baseurl = "https://stellarproject.io"
+title = "Stellar Project"
+theme = "default"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = "Composable services for containers"
+  logo = "fa-space-shuttle"
+  copyright = ""
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/stellarproject"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
